@@ -10,5 +10,10 @@ namespace MultipleStuff
             min = this.Min();
             max = this.Max();
         }
+
+        public MinMax GetMinMax2()
+        {
+            return new MinMax { Min = this.Min(), Max = this.Max() };
+        }
     }
 }
