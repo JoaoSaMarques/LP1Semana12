@@ -20,5 +20,16 @@ namespace MultipleStuff
         {
             return (this.Min(), this.Max());
         }
+
+        public (MinValue: double, MaxValue: double) GetMinMax4()
+        {
+            return (this.Min(), this.Max());
+        }
+
+        public struct MinMax
+        {
+            public double Min { get; set; }
+            public double Max { get; set; }
+        }
     }
 }
