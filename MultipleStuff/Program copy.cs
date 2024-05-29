@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace MultipleStuff
 {
@@ -21,7 +22,7 @@ namespace MultipleStuff
             return (this.Min(), this.Max());
         }
 
-        public (MinValue: double, MaxValue: double) GetMinMax4()
+        public (double Min, double Max) GetMinMax4()
         {
             return (this.Min(), this.Max());
         }
