@@ -50,6 +50,26 @@ namespace JustLikeACollection
             }
         }
 
+        public void Add(T item)
+        {
+            if (EqualityComparer<T>.Default.Equals(item0, default(T)))
+            {
+                item0 = item;
+                return;
+            }
+            if (EqualityComparer<T>.Default.Equals(item1, default(T)))
+            {
+                item1 = item;
+                return;
+            }
+            if (EqualityComparer<T>.Default.Equals(item2, default(T)))
+            {
+                item2 = item;
+                return;
+            }
+            
+        }
+
         public IEnumerator<T> GetEnumerator()
         {
             yield return item0;
