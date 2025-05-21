@@ -2,7 +2,7 @@
 
 namespace MyGenericClass
 {
-    public class Guarda3
+    public class Guarda3<T>
     {
         private T item0;
         private T item1;
